@@ -14,7 +14,7 @@ export default function NavBar() {
                     <li>
                         <Link href={'/#contact'}>Get in Touch</Link>
                     </li>
-                    <li>
+                    <li className='text-3xl'>
                         <Link href="https://www.instagram.com/the.vibe.brass/">
                             <FaInstagram aria-label="Instagram" />
                         </Link>
