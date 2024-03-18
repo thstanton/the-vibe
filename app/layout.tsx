@@ -24,7 +24,11 @@ export default function RootLayout({
     children: React.ReactNode
 }>) {
     return (
-        <html lang="en" data-theme="dark">
+        <html
+            lang="en"
+            data-theme="dark"
+            className={`${piazzolla.variable} ${nunito.className}`}
+        >
             <head>
                 <link
                     rel="icon"
@@ -33,9 +37,7 @@ export default function RootLayout({
                     sizes="<generated>"
                 />
             </head>
-            <body
-                className={`${piazzolla.variable} font-subtitle ${nunito.className} font-sans`}
-            >
+            <body>
                 <NavBar />
                 {children}
                 <Footer />
