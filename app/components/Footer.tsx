@@ -4,23 +4,23 @@ import { FaInstagram } from 'react-icons/fa'
 
 export default function Footer() {
     return (
-        <footer className="footer bg-slate-950 items-center p-4">
-            <aside className="grid-flow-col items-center">
+        <footer className="flex w-full flex-wrap items-center justify-between bg-slate-950 p-4">
+            <aside>
                 <Image
                     src="/images/vibe-logo.svg"
                     width={100}
                     height={50}
                     alt="The Vibe Logo"
                 />
-                <p>The Vibe ©2024</p>
             </aside>
-            <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
-                <Link href="https://www.instagram.com/the.vibe.brass/">
-                    <div className="btn btn-circle btn-ghost text-2xl">
-                        <FaInstagram aria-label="Instagram" />
-                    </div>
-                </Link>
-            </nav>
+            <p className='text-white font-sans'>The Vibe ©2024</p>
+            <Link
+                href="https://www.instagram.com/the.vibe.brass/"
+                className="flex flex-row items-center gap-2 text-2xl"
+            >
+                <FaInstagram aria-label="Instagram" />{' '}
+                <span className="text-xs">the.vibe.brass</span>
+            </Link>
         </footer>
     )
 }
