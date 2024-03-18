@@ -8,7 +8,10 @@ const config: Config = {
     ],
     theme: {
         extend: {
-            backgroundImage: {},
+            fontFamily: {
+                sans: ['var(--font-inter)'],
+                subtitle: ['var(--font-piazzolla)'],
+            }
         },
     },
     plugins: [require('daisyui')],

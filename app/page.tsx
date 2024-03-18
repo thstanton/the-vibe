@@ -12,8 +12,8 @@ export default function Home() {
                 <VideoPlayer />
                 <Bio />
             </div>
-            <div className='flex w-full md:flex-row flex-col'>
-                <Testimonials />
+            <div className='flex w-full md:flex-row flex-col justify-center items-center'>
+                {/* <Testimonials /> */}
                 <Contact />
             </div>
         </main>
