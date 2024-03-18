@@ -7,14 +7,14 @@ export default function NavBar() {
         <nav className="navbar absolute z-50 text-xl text-slate-100">
             <div className="navbar-start"></div>
             <div className="navbar-end">
-                <ul className="font-subtitle menu gap-6 px-1 text-xl text-slate-100 hidden md:menu-horizontal">
+                <ul className="font-subtitle menu hidden gap-6 px-1 text-xl text-slate-100 md:menu-horizontal">
                     <li>
                         <Link href={'/#bio'}>About Us</Link>
                     </li>
                     <li>
                         <Link href={'/#contact'}>Get in Touch</Link>
                     </li>
-                    <li className='text-3xl'>
+                    <li className="text-3xl">
                         <Link href="https://www.instagram.com/the.vibe.brass/">
                             <FaInstagram aria-label="Instagram" />
                         </Link>
@@ -24,13 +24,13 @@ export default function NavBar() {
                     <div
                         tabIndex={0}
                         role="button"
-                        className="btn btn-ghost md:hidden"
+                        className="btn btn-ghost md:hidden text-xl"
                     >
                         <MdMenu aria-label="Menu" />
                     </div>
                     <ul
                         tabIndex={0}
-                        className="menu dropdown-content menu-sm z-[1] mt-3 w-52 rounded-box bg-base-100 p-2 shadow relative right-0 z-50"
+                        className="menu dropdown-content menu-sm relative right-0 z-50 mt-3 w-52 rounded-box bg-base-100 p-2 shadow"
                     >
                         <li>
                             <Link href={'/#bio'}>About Us</Link>

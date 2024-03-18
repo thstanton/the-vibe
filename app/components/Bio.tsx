@@ -26,7 +26,7 @@ export default function Bio() {
                 seasonal celebration or drinks reception - truly good mood
                 music!
             </p>
-            <p className="pb-4 font-sans">
+            {/* <p className="pb-4 font-sans">
                 Featuring musicians with a wealth of experience across pop,
                 jazz, Mariachi, Balkan brass, salsa, Bollywood, oompah and more,
                 at iconic venues such as:
@@ -40,7 +40,7 @@ export default function Bio() {
                 <li>⁠HMV Forum, The Roundhouse</li>
                 <li>⁠Abbey Road Studios, AIR Studios</li>
                 <li>⁠Hundreds of weddings and corporate functions</li>
-            </ul>
+            </ul> */}
         </div>
     )
 }

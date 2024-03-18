@@ -22,11 +22,11 @@ export default function Hero() {
                     height={200}
                 />
                 <h1 className="font-subtitle px-8 text-center text-xl text-slate-100 md:text-3xl">
-                    Roaming brass band bringing the energy to your events
+                    Roaming brass band bringing the energy!
                 </h1>
                 <Link href="#video">
                     <button className="font-subtitle btn max-w-40 border-none bg-[#EB4A98] text-white">
-                        Watch the promo
+                        See us in action
                     </button>
                 </Link>
             </div>
