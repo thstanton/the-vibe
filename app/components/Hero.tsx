@@ -13,14 +13,14 @@ export default function Hero() {
             >
                 <source src="/videos/vibeLoop.mp4" />
             </video>
-            <div className="z-50 flex h-auto flex-col items-center justify-center gap-8 font-semibold">
+            <div className="z-20 flex w-full h-auto flex-col items-center justify-center gap-8 font-semibold">
                 <Image
                     src="/images/vibe-logo.svg"
                     alt="The Vibe"
                     width={400}
                     height={200}
                 />
-                <h1 className="font-subtitle text-3xl text-slate-100">
+                <h1 className="font-subtitle text-xl md:text-3xl text-slate-100 text-center px-8">
                     Roaming brass band bringing the energy to your events
                 </h1>
                 <Link href="#video">
