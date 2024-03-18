@@ -10,6 +10,7 @@ export default function Hero() {
                 muted
                 loop
                 className="absolute z-10 h-screen object-cover"
+                poster="/videos/vibe-loop-placeholder.png"
             >
                 <source src="/videos/vibeLoop.mp4" />
             </video>
