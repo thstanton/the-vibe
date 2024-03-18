@@ -13,7 +13,6 @@ export default function Footer() {
                     alt="The Vibe Logo"
                 />
             </aside>
-            <p className='text-white font-sans'>The Vibe ©2024</p>
             <Link
                 href="https://www.instagram.com/the.vibe.brass/"
                 className="flex flex-row items-center gap-2 text-2xl"
