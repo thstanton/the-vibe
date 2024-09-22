@@ -7,9 +7,12 @@ export default function NavBar() {
         <nav className="navbar absolute z-50 text-xl text-slate-100">
             <div className="navbar-start"></div>
             <div className="navbar-end">
-                <ul className="font-subtitle menu hidden gap-6 px-1 text-xl text-slate-100 md:menu-horizontal">
+                <ul className="menu hidden gap-6 px-1 font-subtitle text-xl text-slate-100 md:menu-horizontal">
                     <li>
                         <Link href={'/#bio'}>About Us</Link>
+                    </li>
+                    <li>
+                        <Link href={'/#repertoire'}>Repertoire</Link>
                     </li>
                     <li>
                         <Link href={'/#contact'}>Get in Touch</Link>
@@ -24,7 +27,7 @@ export default function NavBar() {
                     <div
                         tabIndex={0}
                         role="button"
-                        className="btn btn-ghost md:hidden text-xl"
+                        className="btn btn-ghost text-xl md:hidden"
                     >
                         <MdMenu aria-label="Menu" />
                     </div>
@@ -34,6 +37,9 @@ export default function NavBar() {
                     >
                         <li>
                             <Link href={'/#bio'}>About Us</Link>
+                        </li>
+                        <li>
+                            <Link href={'/#repertoire'}>Repertoire</Link>
                         </li>
                         <li>
                             <Link href={'/#contact'}>Get in Touch</Link>

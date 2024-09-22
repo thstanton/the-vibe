@@ -16,16 +16,16 @@ export default function Hero() {
             </video>
             <div className="z-20 flex h-full w-full flex-col items-center justify-center gap-8 bg-slate-900/50 font-semibold">
                 <Image
-                    src="/images/vibe-logo.svg"
+                    src="/images/neon-logo-2.svg"
                     alt="The Vibe"
                     width={400}
                     height={200}
                 />
-                <h1 className="font-subtitle px-8 text-center text-xl text-slate-100 md:text-3xl">
+                <h1 className="px-8 text-center font-subtitle text-xl text-slate-100 md:text-3xl">
                     Roaming brass band bringing the energy!
                 </h1>
                 <Link href="#video">
-                    <button className="font-subtitle btn max-w-40 border-none bg-[#EB4A98] text-white">
+                    <button className="btn max-w-40 border-none bg-[#EB4A98] font-subtitle text-white">
                         See us in action
                     </button>
                 </Link>

@@ -7,7 +7,7 @@ export default function Footer() {
         <footer className="flex w-full flex-wrap items-center justify-between bg-slate-950 p-4">
             <aside>
                 <Image
-                    src="/images/vibe-logo.svg"
+                    src="/images/flat-logo.svg"
                     width={100}
                     height={50}
                     alt="The Vibe Logo"
